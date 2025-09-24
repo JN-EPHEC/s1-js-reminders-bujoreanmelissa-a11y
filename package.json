@@ -1,0 +1,23 @@
+{
+  "name": "week-1",
+  "version": "1.0.0",
+  "description": "Welcome to the first week of our course on mobile development with React Native! This week, we are laying the essential groundwork by ensuring everyone is comfortable with modern JavaScript features. These concepts are crucial, as React and React Native use them extensively.",
+  "main": "SOLUCES.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "nodemon": "^3.1.10",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

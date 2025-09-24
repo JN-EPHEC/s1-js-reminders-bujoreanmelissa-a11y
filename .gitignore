@@ -1,0 +1,6 @@
+node_modules/
+dist/
+SOLUCES.js
+package-lock.json
+*_soluce.mjs
+SOLUCES.js
