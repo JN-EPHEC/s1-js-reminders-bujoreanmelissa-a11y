@@ -20,3 +20,16 @@ const albumData = {
 };
 
 // Your code here
+const products = [
+  "  mobile phone ",
+  " laptop computer  ",
+  "Headphones",
+  "  smartwatch",
+];
+
+// Format product names
+const formattedProducts = products.map(product => {
+  const trimmed = product.trim();
+  return trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase();
+});
+console.log(formattedProducts);

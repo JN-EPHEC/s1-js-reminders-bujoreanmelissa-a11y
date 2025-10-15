@@ -23,6 +23,8 @@ const newInfo = {
   },
 };
 
+// ...existing code...
+
 const albumData = {
   name: "Thriller",
   artist: "Michael Jackson",
@@ -36,4 +38,15 @@ const albumData = {
   ],
 };
 
-// Your code here
+// Arrow function to format album info
+const formatAlbum = (album, showTracks = false) => {
+  const { name, artist, releaseYear, tracks } = album;
+  let result = `The album ${name} by ${artist}, released in ${releaseYear}, contains ${tracks.length} tracks.`;
+  if (showTracks) {
+    result += `\nTracks: ${tracks.join(', ')}`;
+  }
+  return result;
+};
+
+console.log(formatAlbum(albumData));
+console.log(formatAlbum(albumData, true));
